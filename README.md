@@ -19,15 +19,33 @@ DataSet/
 │       ├── image1.jpg
 │       ├── image2.jpg
 │       └── ...
+│   └── test/
+│       ├── image1.jpg
+│       ├── image2.jpg
+│       └── ...
 └── labels/
     ├── train/
     │   ├── image1.txt
     │   ├── image2.txt
     │   └── ...
     └── val/
+    |    ├── image1.txt
+    |    ├── image2.txt
+    └── test/
         ├── image1.txt
         ├── image2.txt
-        
+
+# For yaml File do these changes
+
+train: /content/DataSet_1/train/images
+val: /content/DataSet_1/valid/images
+test is optional
+test: /content/DataSet_1/test/images
+
+nc: 6
+names: ['angry', 'fear', 'happy', 'neutral', 'sad', 'surpised']
+
+       
 Then create the zip of the folder
 
 # Upload the Data Set

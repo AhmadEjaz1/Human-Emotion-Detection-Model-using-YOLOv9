@@ -2,7 +2,7 @@
 The Human Emotion Detection System revolutionizes traditional emotion analysis methods by leveraging advanced robotics, machine learning, and computer vision to accurately detect and interpret human emotions in real-time.
 
 # Data Set Download
-You can download the data set from the link below:
+You can download the data set from the link:
 https://universe.roboflow.com/facialemotionrecognition/thesis-xjhyc/dataset/2
 Downlad the Data Set with YOLOv9 format
 
@@ -27,7 +27,7 @@ DataSet/
     └── val/
         ├── image1.txt
         ├── image2.txt
-        └── ...
+        
 Then create the zip of the folder
 
 # Upload the Data Set

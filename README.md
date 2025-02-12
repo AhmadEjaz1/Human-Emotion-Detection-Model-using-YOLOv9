@@ -35,3 +35,4 @@ Upload the data to gdrive and the use google collab for Model Training
 Set The Notebook settings to T4 GPU
 Then follow the code file for Training of Model
 Thanks
+

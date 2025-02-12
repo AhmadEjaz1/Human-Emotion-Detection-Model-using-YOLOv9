@@ -7,7 +7,7 @@ https://universe.roboflow.com/facialemotionrecognition/thesis-xjhyc/dataset/2
 Downlad the Data Set with YOLOv9 format
 
 # Data Set Changes
-Extract the Data Set and follow the format bellow:
+Extract the Data Set and follow the format :
 DataSet/
 ├── data.yaml
 ├── images/

@@ -9,41 +9,13 @@ Downlad the Data Set with YOLOv9 format
 # Data Set Changes
 Extract the Data Set and follow the format :
 DataSet/
-├── data.yaml
-├── images/
-│   ├── train/
-│   │   ├── image1.jpg
-│   │   ├── image2.jpg
-│   │   └── ...
-│   └── val/
-│       ├── image1.jpg
-│       ├── image2.jpg
-│       └── ...
-│   └── test/
-│       ├── image1.jpg
-│       ├── image2.jpg
-│       └── ...
-└── labels/
-    ├── train/
-    │   ├── image1.txt
-    │   ├── image2.txt
-    │   └── ...
-    └── val/
-    |    ├── image1.txt
-    |    ├── image2.txt
-    └── test/
-        ├── image1.txt
-        ├── image2.txt
+![image](https://github.com/user-attachments/assets/2ed6eb30-c685-4588-b6e0-71de7855d8d3)
+
 
 # For yaml File do these changes
 
-train: /content/DataSet_1/train/images
-val: /content/DataSet_1/valid/images
-test is optional
-test: /content/DataSet_1/test/images
+![image](https://github.com/user-attachments/assets/e19dce15-ec7e-4ba6-8594-527921da2c8d)
 
-nc: 6
-names: ['angry', 'fear', 'happy', 'neutral', 'sad', 'surpised']
 
        
 Then create the zip of the folder
